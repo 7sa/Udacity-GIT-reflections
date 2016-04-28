@@ -1,3 +1,35 @@
 Q: What happens when you initialize a repository? Why do you need to do it?
 
 A: A new, empty (? no commits) repository is created in that directory. In order to start tracking changes(?).
+
+---
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A: Working directory is the folder in which files are stored; repository is where tracked changes are stored; staging area is where you review what changes you want to add to a commit. To confirm what is going to be tracked in the commit?
+
+Update: Working directory is changes being made not yet added to staging area. (Until staged staging area contains files from most recent commit.)
+
+---
+
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+A: You can use <git diff> to make sure there is only one logical change from the working area added to most recent commit (copy in staging area until files added to stage), or git <diff --staged> to make sure there is only one change between the staging area and the most recent commit.
+
+---
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A: If I want to make changes parallel to, rather than replacing, current code, or if I want to make a similar, but distint project.
+
+---
+
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A: Both are joined to become the master(?). I don't know what they mean about the diagram ;;
+
+---
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+A: Well con is in this case my branch is ahead of 'origin/master' and the answer in the forum says to start over... pro is if there is a conflict theoretically git points out where it is.
