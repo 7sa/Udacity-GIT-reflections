@@ -1,3 +1,35 @@
 Q: When would you want to use a remote repository rather than keeping all your work local?
 
 A: If I had to work in multiple locations often, e.g. if I was working on code on a different computer at a bootcamp than at home. Or if I were collaborating with someone else.
+
+---
+
+Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+A: Maybe if you are working on something then merging can disrupt your workflow or lead to an unnecessary merge conflict?
+
+---
+
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A: Use a fork to make your own additions to someone else’s project while giving them credit. Use a clone to work on your fork locally. Use a branch to work on a parallel feature on your local fork.
+
+---
+
+Q: What is the benefit of having a copy of the last known state of the remote stored locally?
+
+A: So you can keep track of where you are in relation to the master and fast-forward merge if necessary?
+
+---
+
+Q: How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+A: With Git and GitHub using pull requests as demonstrated, without, using Google docs or Word and e-mail. It would be easier to comment without GitHub and see changes on the document, but with GitHub it would be easier to see the changes over time and in multi-document scenarios.
+
+---
+
+Q: When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+A: When you want to float an idea but aren’t sure yet if you want to commit to it. This has the advantage of not affecting the master if you/your group hasn’t made up your/its mind yet; on the other hand if you know you want the change to be in the main, final project it may be faster to change the master directly.
+
+From following lesson: You could make your changes directly to the master branch in your fork, but when contributing to a public repository, it’s standard practice to make the changes in a non-master branch within the fork. This way, you can easily keep your master branch up-to-date with master of the original repository, and merge changes from master into your branch when you are ready.
